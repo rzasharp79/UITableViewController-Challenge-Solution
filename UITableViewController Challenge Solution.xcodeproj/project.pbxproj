@@ -14,13 +14,13 @@
 		A46C1F26198BC7D1004EB859 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A46C1F25198BC7D1004EB859 /* main.m */; };
 		A46C1F2A198BC7D2004EB859 /* OWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A46C1F29198BC7D2004EB859 /* OWAppDelegate.m */; };
 		A46C1F2D198BC7D2004EB859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46C1F2B198BC7D2004EB859 /* Main.storyboard */; };
-		A46C1F30198BC7D2004EB859 /* OWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46C1F2F198BC7D2004EB859 /* OWViewController.m */; };
 		A46C1F32198BC7D2004EB859 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46C1F31198BC7D2004EB859 /* Images.xcassets */; };
 		A46C1F39198BC7D2004EB859 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46C1F38198BC7D2004EB859 /* XCTest.framework */; };
 		A46C1F3A198BC7D2004EB859 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46C1F19198BC7D1004EB859 /* Foundation.framework */; };
 		A46C1F3B198BC7D2004EB859 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46C1F1D198BC7D1004EB859 /* UIKit.framework */; };
 		A46C1F43198BC7D2004EB859 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A46C1F41198BC7D2004EB859 /* InfoPlist.strings */; };
 		A46C1F45198BC7D2004EB859 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A46C1F44198BC7D2004EB859 /* UITableViewController_Challenge_SolutionTests.m */; };
+		A46C1F50198BC9B8004EB859 /* myTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A46C1F4F198BC9B8004EB859 /* myTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		A46C1F28198BC7D2004EB859 /* OWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWAppDelegate.h; sourceTree = "<group>"; };
 		A46C1F29198BC7D2004EB859 /* OWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWAppDelegate.m; sourceTree = "<group>"; };
 		A46C1F2C198BC7D2004EB859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A46C1F2E198BC7D2004EB859 /* OWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWViewController.h; sourceTree = "<group>"; };
-		A46C1F2F198BC7D2004EB859 /* OWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWViewController.m; sourceTree = "<group>"; };
 		A46C1F31198BC7D2004EB859 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A46C1F37198BC7D2004EB859 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46C1F38198BC7D2004EB859 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A46C1F40198BC7D2004EB859 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		A46C1F42198BC7D2004EB859 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A46C1F44198BC7D2004EB859 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		A46C1F4E198BC9B8004EB859 /* myTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = myTableViewController.h; path = ../myTableViewController.h; sourceTree = "<group>"; };
+		A46C1F4F198BC9B8004EB859 /* myTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = myTableViewController.m; path = ../myTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +112,9 @@
 		A46C1F1F198BC7D1004EB859 /* UITableViewController Challenge Solution */ = {
 			isa = PBXGroup;
 			children = (
-				A46C1F28198BC7D2004EB859 /* OWAppDelegate.h */,
-				A46C1F29198BC7D2004EB859 /* OWAppDelegate.m */,
+				A46C1F51198BC9D0004EB859 /* App Delegates */,
 				A46C1F2B198BC7D2004EB859 /* Main.storyboard */,
-				A46C1F2E198BC7D2004EB859 /* OWViewController.h */,
-				A46C1F2F198BC7D2004EB859 /* OWViewController.m */,
+				A46C1F52198BC9E3004EB859 /* View Controllers */,
 				A46C1F31198BC7D2004EB859 /* Images.xcassets */,
 				A46C1F20198BC7D1004EB859 /* Supporting Files */,
 			);
@@ -150,6 +148,24 @@
 				A46C1F41198BC7D2004EB859 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A46C1F51198BC9D0004EB859 /* App Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				A46C1F28198BC7D2004EB859 /* OWAppDelegate.h */,
+				A46C1F29198BC7D2004EB859 /* OWAppDelegate.m */,
+			);
+			name = "App Delegates";
+			sourceTree = "<group>";
+		};
+		A46C1F52198BC9E3004EB859 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A46C1F4E198BC9B8004EB859 /* myTableViewController.h */,
+				A46C1F4F198BC9B8004EB859 /* myTableViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A46C1F2A198BC7D2004EB859 /* OWAppDelegate.m in Sources */,
-				A46C1F30198BC7D2004EB859 /* OWViewController.m in Sources */,
 				A46C1F26198BC7D1004EB859 /* main.m in Sources */,
+				A46C1F50198BC9B8004EB859 /* myTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
